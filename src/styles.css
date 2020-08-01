@@ -1,0 +1,31 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.gif-flex {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: auto;
+  height: 100%;
+}
+
+.gif-flex > li {
+  list-style-type: none;
+  margin: 0.5vw;
+}
+
+.giph-form input {
+  padding: 10px;
+  font-size: 24px;
+  border-radius: 10px;
+  margin: 0 10px 0 10px;
+}
+
+.giph-form input[type="submit"] {
+  cursor: pointer;
+}
+
+.giph-form input[type="submit"]:active {
+  background-color: #ff579d;
+}
